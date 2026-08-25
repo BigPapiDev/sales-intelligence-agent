@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scheduling Copilot</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #1d2939; background: #f5f7fa; }
+    body { margin: 0; }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 18px 48px; }
+    h1 { margin: 0 0 20px; } h2 { font-size: 1rem; margin: 0 0 10px; }
+    .card { background: white; border: 1px solid #d0d5dd; border-radius: 12px; margin: 14px 0; padding: 18px; box-shadow: 0 1px 2px #1018280d; }
+    p { white-space: pre-line; line-height: 1.5; } .choices { display: grid; gap: 8px; }
+    button, textarea { box-sizing: border-box; font: inherit; width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #98a2b3; background: white; text-align: left; }
+    button { cursor: pointer; } button.selected { border: 2px solid #155eef; background: #eff4ff; } button.approve { background: #1570ef; border: 0; color: white; font-weight: 700; text-align: center; margin-top: 8px; } textarea { min-height: 130px; resize: vertical; }
+  </style>
+</head>
+<body>
+  <main aria-live="polite"></main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
